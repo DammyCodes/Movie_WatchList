@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchList Page</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <script src="https://kit.fontawesome.com/a184e52bc8.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black/[0.9]">
+   <div class="min-h-[100vh] border border-black/2 shadow-xl w-[700px] my-[20px] mx-auto rounded-md">
+
+    <!-- Hero Section -->
+    <div class="h-[400px] relative w-[100%]">
+       <div><img src="/images/header_bg_img.png" class="bg-cover bg-center w-[100%] h-[100%] absolute"></div>
+       <div class="bg-black opacity-[0.6] absolute z-[0] w-[100%] h-[100%] rounded-md"></div>
+        <div class="flex absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80%] justify-between items-center text-white">
+            <h1 class="text-[40px] font-bold">My Watchlist</h1>
+            <p>Search for movies</p>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="flex flex-col gap-4 justify-center items-center text-slate-300 min-h-[500px] w-[100%] bg-white">
+        <h2 class="text-3xl">Your watchlist is looking a little empty...</h2>
+        <p class="text-slate-500 font-bold text-xl">
+            <i class="fa-solid fa-circle-plus cursor-pointer"></i>
+            Let's add some movies!
+        </p>
+        <button><a href="/index.html">Go to Home</a></button>
+    </div>
+   </div>
+</body>
+</html>
