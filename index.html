@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie WatchList</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <script src="https://kit.fontawesome.com/a184e52bc8.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+<body class="bg-black/[0.9]">
+   <div class="min-h-[100vh] border border-black/2 shadow-xl w-[700px] my-[20px] mx-auto rounded-md">
+
+    <!-- Hero Section -->
+    <div class="h-[400px] relative w-[100%]">
+       <div><img src="/images/header_bg_img.png" class="bg-cover bg-center w-[100%] h-[100%] absolute"></div>
+       <div class="bg-black opacity-[0.6] absolute z-[0] w-[100%] h-[100%] rounded-md"></div>
+        <div class="flex absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80%] justify-between items-center text-white">
+            <h1 class="text-[40px] font-bold">Find Your Film</h1>
+            <p>My WatchList</p>
+        </div>
+        <!-- input and search -->
+        <div class="flex w-[80%] bg-slate-100 justify-between items-center absolute bottom-[-28px] mx-auto left-[50%] translate-x-[-50%] shadow-md rounded-md text-xl">
+            <div class="flex gap-4 py-4 px-6 items-center text-slate-400 flex-1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for a movie" class="bg-slate-50 outline-0 w-[100%] box-border">
+            </div>
+            <button class="px-8 border-s-2 border-slate-300">Search</button>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="flex flex-col justify-center items-center text-slate-300 min-h-[500px] w-[100%] bg-slate-100">
+        <i class="fa-solid fa-film fa-6x cursor-pointer"></i>
+        <p class="text-3xl">Start Exploring</p>
+    </div>
+   </div>
 </body>
 </html>
