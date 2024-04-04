@@ -831,6 +831,11 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -960,4 +965,19 @@ video {
 
 .outline-0 {
   outline-width: 0px;
+}
+
+.ring-slate-100 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(241 245 249 / var(--tw-ring-opacity));
+}
+
+.ring-slate-300 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(203 213 225 / var(--tw-ring-opacity));
+}
+
+.ring-slate-700 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(51 65 85 / var(--tw-ring-opacity));
 }
